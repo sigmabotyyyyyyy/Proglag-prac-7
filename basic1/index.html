@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090d19">
+  <title>Портфолио — Лабораторная №7</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="eyebrow">Лабораторная работа 07 · Базовый уровень · Вариант 3</div>
+      <div class="hero"><div><h1>Портфолио</h1><p>Собственные проекты, навыки и информация о студенте</p></div><div class="hero-mark" aria-hidden="true">◉</div></div>
+    </header>
+    <nav class="nav" aria-label="Разделы приложения" role="tablist">
+      <button class="tab" type="button" role="tab" id="tab-first" data-page="first" aria-controls="content" aria-selected="true">Проекты</button>
+      <button class="tab" type="button" role="tab" id="tab-second" data-page="second" aria-controls="content" aria-selected="false">Навыки</button>
+      <button class="tab" type="button" role="tab" id="tab-third" data-page="third" aria-controls="content" aria-selected="false">Обо мне</button>
+    </nav>
+    <main id="content" role="tabpanel" aria-labelledby="tab-first" aria-live="polite" tabindex="-1"></main>
+    <footer class="footer"><span>Манкеев Жанибек · ИС 25-22</span><span>HTML5 · CSS3 · JavaScript · SPA</span></footer>
+  </div>
+</body>
+</html>
